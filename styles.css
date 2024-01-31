@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    padding: 100px;
+}
+
+.nft-card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 25px;
+    height: 500px;
+    width: 270px;
+    margin: auto;
+    box-shadow: 15px 40px hsl(215, 56%, 11%);
+}
+
+.nft-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nft-image {
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#view-icon {
+    position: absolute;
+    padding: 106px;
+    border-radius: 5px;
+    opacity: 0;  
+}
+
+#view-icon:hover {
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.3);
+}
+
+
+
+
+.main-tblock {
+    font-family: Outfit;
+}
+
+.main-tblock h4 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500
+}
+
+.main-tblock h4:hover {
+    color:hsl(178, 100%, 50%); 
+    cursor: pointer;
+}
+
+.main-tblock p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1
+}
+
+.second-tblock {
+    display: flex;
+    font-family: outfit;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.nft-price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: hsl(178, 100%, 50%);
+    font-size: .8rem;
+    
+}
+
+.nft-price img {
+    width: 10px;
+    height: 15px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: hsl(215, 51%, 70%);
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.time img {
+    width: 14px;
+    height: 14px;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Outfit;
+    color: hsl(215, 51%, 70%);
+    gap: 15px;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 5px;
+}
+
+.credits img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.credits span {
+    color: white;
+}
